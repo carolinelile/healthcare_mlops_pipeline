@@ -68,8 +68,12 @@ Workflow orchestration is handled using Apache Airflow, deployed on the cloud. I
 - Scheduled batch predictions
 - Drift monitoring and conditional retraining
 
+---
+
 ## 🧪 Testing
 This project includes unit tests for FHIR JSON cleaning logic to ensure that display values, HTML content, and identifiers are properly sanitized.
+
+---
 
 ## 🦾 Machine Learning
 
