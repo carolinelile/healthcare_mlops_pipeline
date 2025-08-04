@@ -86,7 +86,6 @@ Predict whether a patient will be readmitted within 30 days of discharge.
 - Scheduled batch scoring
 - Prediction drift metrics logged to BigQuery
 - Conditional workflow in Airflow (retrain if threshold violated)
-- Optional: Slack alert or dashboard tile update
 
 ---
 
