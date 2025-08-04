@@ -54,8 +54,7 @@ Monitoring & Retraining Triggers
 | Deployment           | Vertex AI Endpoint                            |
 | Monitoring           | Airflow + GCP Logging                         |
 | Infrastructure       | Terraform                                     |
-| Reproducibility      | Makefile, `.env`       |
-| CI/CD (Optional)     | GitHub Actions, Pre-commit Hooks              |
+| Reproducibility      | Makefile, `.env`                              |
 
 ---
 
