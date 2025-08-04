@@ -24,18 +24,18 @@ This project simulates a real-world healthcare analytics and ML workflow using *
 
 ## 📊 Pipeline Architecture
 
-**Synthea JSON**
-↓
+Synthea JSON
+   ↓
 Google Cloud Storage (Raw Data)
-↓
+   ↓
 FHIR Store (via Healthcare API)
-↓
+   ↓
 BigQuery (via FHIR Export API)
-↓
+   ↓
 ML Model Training (Vertex AI)
-↓
+   ↓
 Model Deployment (Vertex AI Endpoint)
-↓
+   ↓
 Monitoring & Retraining Triggers
 
 
