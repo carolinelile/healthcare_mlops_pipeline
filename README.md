@@ -24,7 +24,7 @@ This project simulates a real-world healthcare analytics and ML workflow using *
 
 ## 📊 Pipeline Architecture
 
-Synthea JSON
+**Synthea JSON**
 ↓
 Google Cloud Storage (Raw Data)
 ↓
