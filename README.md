@@ -58,7 +58,20 @@ Monitoring & Retraining Triggers
 
 ---
 
-## 🧪 Machine Learning
+## ⏱️ Orchestration
+Workflow orchestration is handled using Apache Airflow, deployed on the cloud. It coordinates key steps in the pipeline, including:
+
+- FHIR data creation and uploading to GCS
+- FHIR data ingestion from GCS to FHIR Store
+- Export of structured data from FHIR Store to BigQuery
+- Model training via Vertex AI Pipelines
+- Scheduled batch predictions
+- Drift monitoring and conditional retraining
+
+## 🧪 Testing
+This project includes unit tests for FHIR JSON cleaning logic to ensure that display values, HTML content, and identifiers are properly sanitized.
+
+## 🎯 Machine Learning
 
 ### 🎯 Problem
 Predict whether a patient will be readmitted within 30 days of discharge.
