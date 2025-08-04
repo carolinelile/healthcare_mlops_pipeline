@@ -71,7 +71,7 @@ Workflow orchestration is handled using Apache Airflow, deployed on the cloud. I
 ## 🧪 Testing
 This project includes unit tests for FHIR JSON cleaning logic to ensure that display values, HTML content, and identifiers are properly sanitized.
 
-## 🎯 Machine Learning
+## 🦾 Machine Learning
 
 ### 🎯 Problem
 Predict whether a patient will be readmitted within 30 days of discharge.
