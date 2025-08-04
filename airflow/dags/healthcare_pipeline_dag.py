@@ -19,12 +19,12 @@ with DAG(
 
     generate_data = BashOperator(
         task_id="generate_synthea_data",
-        bash_command="bash /opt/airflow/scripts/01_generate_synthea_data.sh",
+        bash_command="bash /opt/airflow/scripts/01_download_synthea_fhir.sh",
     )
 
     ingest_to_gcs = PythonOperator(
         task_id="ingest_fhir_to_gcs",
-        python_callable=lambda: exec(open("/opt/airflow/scripts/02_ingest_to_gcs.py").read()),
+        python_callable=lambda: exec(open("/opt/airflow/scripts/02_ingest_fhir_to_gcs.py").read()),
     )
 
     load_to_fhir = PythonOperator(
