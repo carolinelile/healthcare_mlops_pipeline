@@ -24,7 +24,8 @@ This project simulates a real-world healthcare analytics and ML workflow using *
 
 ## 📊 Pipeline Architecture
 
-```Synthea JSON```
+```bash
+Synthea JSON
    ↓
 Google Cloud Storage (Raw Data)
    ↓
@@ -36,9 +37,9 @@ ML Model Training (Vertex AI)
    ↓
 Model Deployment (Vertex AI Endpoint)
    ↓
-```Monitoring & Retraining Triggers```
+Monitoring & Retraining Triggers
 
-
+```
 ---
 
 ## 🧰 Tech Stack
