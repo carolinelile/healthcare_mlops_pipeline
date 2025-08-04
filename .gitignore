@@ -1,0 +1,39 @@
+
+# Python
+__pycache__/
+*.pyc
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# DBT
+dbt_packages/
+target/
+logs/
+
+# Jupyter or notebooks
+.ipynb_checkpoints/
+
+# Environment
+.env
+.envrc
+
+# Keys
+keys/
+
+# OS junk
+.DS_Store
+
+# Raw data
+/data/raw/
+
+# Logs
+logs/
+*.log
+
+# Synthea software
+synthea-with-dependencies.jar
+
+.vscode/
